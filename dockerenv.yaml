@@ -1,0 +1,25 @@
+name: base
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python==3.9
+  - ncbi-genome-download
+  - sra-tools==3.0.3
+  - numpy
+  - pandas
+  - pip
+  - tqdm
+  - pyyaml
+  - cryptography==38.0.4
+  - bwa
+  - prodigal
+  - samtools
+  - mummer
+  - spades #==3.7.1 recommended but not available
+  - flye
+  - minimap2
+  - bedtools
+  - pip:
+    - circlator
