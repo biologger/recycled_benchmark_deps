@@ -21,5 +21,10 @@ dependencies:
   - flye
   - minimap2
   - bedtools
+  - joblib
+  - matplotlib
+  - seaborn
+  - gffutils
   - pip:
     - circlator
+    - patchworklib
